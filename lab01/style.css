@@ -1,0 +1,69 @@
+html {
+  background-color: #ffffff;
+  height: 100vh;
+}
+body {
+  height: 100vh;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+/* h3 {
+  text-align: center;
+} */
+/* li {
+  margin: 10px 0;
+} */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.main-container {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+#table1 {
+  /* border-collapse: collapse; */
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+/* .square-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+} */
+.square {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square img {
+  width: 100px;
+  height: 100px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
